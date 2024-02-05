@@ -2,10 +2,10 @@
 
 **MS Game Save Extractor** is a console app to **find**, **list** and **copy** the saves of your Microsoft Store or Game Pass games. The app contain a single executable and should work on any version of **Windows 10** and **Windows 11** with `.NET Runtime 6` installed.
 
-**This app alone doesn't allow to export game save from Microsoft platform to another platform like Steam or Epic etc. For more information about this topic read the answer to the [FAQS: Is it possible to import save in another platform like Steam or Epic ?](#is-it-possible-to-import-save-in-another-platform-like-steam-or-epic)**.
+**This app alone doesn't allow to export game save from Microsoft platform to another platform like Steam or Epic etc. For more information about this topic read the answer to the [FAQS: Is it possible to import save in another platform like Steam or Epic ?](#is-it-possible-to-import-save-in-another-platform-like-steam-or-epic-)**.
 
 - **To download and use the app read [Usage](#usage) section**.
-- If you encouter **troubleshooting** using the app read the [FAQs](#faqs) first and if you can't find your answer, use the [issues](#issues) section.
+- If you encouter **troubleshooting** using the app read the [FAQs](#faqs) first and if you can't find your answer, use the [issues](https://github.com/Eryux/msgsave-extract/issues) section.
 - Informations needed **to build** the app are in [Build and development](#build-and-development) section.
 - For library usage, see [Using library gpsave-lib in your project](#using-library-gpsave-lib-in-your-project) section and the [library documentation](./docs/gpsave-lib.md).
 
@@ -14,7 +14,7 @@ The solution also include a separated library project containing usefull classes
 
 ## Usage
 
-- Go to the [Release section]() and download the latest release of the app corresponding to your OS version.
+- Go to the [Release section](https://github.com/Eryux/msgsave-extract/releases) and download the latest release of the app corresponding to your OS version.
 - Unzip the downloaded archive file on your computer.
 - Enter the folder obtained by unzipping the archive. You must have two files: `gpsave.exe` and `knowngames.json`.
 - Open a terminal in the folder where `gpsave.exe` is located (`Shift+right click > Open PowerShell window here`).
@@ -223,7 +223,7 @@ If the `knowngames.json` file already exists, only game data that are not alread
 ## Contributing
 
 Contributing is always welcome. 
-If you want to help on this project by contributing on its developement, by reporting bugs, errors or mistakes or simply by giving your feedback, use the [issues section](https://github.com/Eryux/msgsave-export/issues).
+If you want to help on this project by contributing on its developement, by reporting bugs, errors or mistakes or simply by giving your feedback, use the [issues section](https://github.com/Eryux/msgsave-extract/issues).
 
 
 ## See also
